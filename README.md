@@ -8,7 +8,7 @@ It looks like this:
 ![](/screenshot.png)
 
 It's darker version of the illusion watchface by [dmnd][2], originally by
-Tokyo Flash[1]. I find it's a better fit for my black pebble.
+[Tokyo Flash][1]. I find it's a better fit for my black pebble.
 
 Although it may not be immediately apparent, there are 4 large numbers on this
 face. It works by having a background of lines going one direction, while
