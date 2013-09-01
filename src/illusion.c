@@ -3,20 +3,17 @@
 #include "pebble_fonts.h"
 
 
-#define MY_UUID { \
-  0x97, 0x43, 0x2C, 0xDD, 0x14, 0xAC, 0x4E, 0x45, \
-  0x9F, 0xBC, 0x20, 0xF1, 0xAF, 0x30, 0xC1, 0xE9 \
-}
+#define MY_UUID { 0xA1, 0x0E, 0x21, 0x73, 0x01, 0xD2, 0x46, 0xBC, 0x8D, 0xF4, 0x32, 0xD7, 0x27, 0x19, 0x6E, 0x7B }
 
 PBL_APP_INFO(MY_UUID,
-             "Illusion", "Desmond Brand",
-             1, 1, /* App version */
+             "Illusion Dark", "zoomix",
+             1, 2, /* App version */
              DEFAULT_MENU_ICON,
              APP_INFO_WATCH_FACE);
 
 #define DEBUG false
 #define TILE_SIZE 10
-const unsigned char LINE[] = {0, 0, 1, 1, 1, 1, 1, 0, 0, 0};
+const unsigned char LINE[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 0};
 #define FONT font_thin
 
 // distance on left and right of text
